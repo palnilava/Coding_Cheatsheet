@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/favicon.ico">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism(1).js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Coding CheatSheets</title>
+
+</head>
+
+
+<body>
+    <div class="front">
+        <span class="logo"><img src="copy.png" alt=""></span>
+        <div class="content center">
+           ****CODING CHEATSHEET****
+        </div>
+        <span class="logo"><img src="copy.png" alt=""></span>
+    </div>
+
+    <!-- navbar start -->
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+               
+            </a>
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900" href="#html">HTML</a>
+                <a class="mr-5 hover:text-gray-900" href="#c">C</a>
+                <a class="mr-5 hover:text-gray-900" href="#css">CSS</a>
+                <a class="mr-5 hover:text-gray-900" href="#c++">C++</a>
+            </nav>
+           
+        </div>
+    </header>
+    <!-- navbar end -->
+    <!-- Social icon -->
+  
+    <div class="social-icons">
+        <ul>
+            <a href="https://www.linkedin.com/in/nilava-pal-393a01201"><li><i class="fa fa-linkedin"> </i></li></a>
+            <a href="https://www.facebook.com/nilava.pal.1"><li><i class="fa fa-facebook"> </i></li></a>
+            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_palnilava_%3Ffbclid%3DIwAR2T0N8a4o4FU7QQB8WhmX8-KNd4uwH17zwDztX0-Hh5tYibMcUgPEs_1kA&h=AT3R4LePCTti95H7E-ALDD6iieNvLMaEaHMvP7-z-8R8U5vq2j6a4inYL0IdcfMa0irG-o4cdwLho4nRcesG3sOzQQ6tD8BrA3NVPZkzp9lIIpaL5uvObeTLy8vChpb7qLJp"><li><i class="fa fa-instagram"> </i></li></a>
+            <a href="https://github.com/palnilava"><li><i class="fa fa-github"> </i></li></a>
+
+        </ul>
+    </div>
+
+
+    <div class="cont" id="html">
+        <h1 class="heading">HTML CheatSheets</h1>
+
+        <ol>
+
+            <li><b>HTML Boilerplate:</b> This is the basic html boilerplate code
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt; </code></pre>
+            </li>
+
+        </ol>
+
+        <h2>1. Headings :</h2> <span>There are six headings available in HTML, H1 is the largest among all, and H6 is the smallest.</span>
+        <h3>&lt;h1&gt; Tag</h3>
+        <pre class="language-html"><code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code></pre>
+        <h3>&lt;h2&gt; Tag</h3>
+        <pre class="language-html"><code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code></pre>
+        <h3>&lt;h3&gt; Tag</h3>
+        <pre class="language-html"><code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code></pre>
+        <h3>h4 Tag</h3>
+        <pre class="language-html"><code>&lt;h4&gt;Heading 4&lt;/h4&gt;</code></pre>
+        <h3>h5 Tag</h3>
+        <pre class="language-html"><code>&lt;h5&gt;Heading 5&lt;/h5&gt;</code></pre>
+        <h3>h6 Tag</h3>
+        <pre class="language-html"><code>&lt;h6&gt;Heading 6&lt;/h6&gt;</code></pre>
+        <!-- <span></span></div><div><div> -->
+        <h2>2. Container</h2>
+        <span>Container tags are the tags that contain some data such as text, image, etc. There are several container tags in HTML.</span>
+        <h3>div tag</h3>
+        <span>div tag or division tag is used to make blocks or divisions in the document.</span>
+        <pre class="language-html"><code>&lt;div&gt; This is div block &lt;/div&gt;</code></pre>
+        <h3>span tag</h3>
+        <span>span is a container for inline content</span>
+        <pre class="language-html"><code>&lt;span&gt; This is span block &lt;/span&gt;</code></pre>
+        <h3>p tag</h3>
+        <span>Paragraph</span>
+        <pre class="language-html"><code>&lt;p&gt; This is a paragraph &lt;/p&gt;</code></pre>
+        <h3>pre tag</h3>
+        <span>pre tag represents pre-formatted text</span>
+        <pre class="language-html"><code>&lt;pre&gt; Hello World &lt;/pre&gt;</code></pre>
+        <h3>code tag</h3>
+        <span>code tag is used to represent source codes</span>
+        <pre class="language-markup"><code>&lt;code&gt;
+        import python
+        &lt;/code&gt;</code></pre>
+        <h2>3. Text Formatting</h2>
+        <span>Text formatting tags are used to format text or data of HTML documents. You can do certain things like creating italic, bold, strong text to make your document look more attractive and understandable.</span>
+        <h3>&lt;b&gt; tag</h3>
+        <pre class="language-html"><code>&lt;b&gt;I'm bold text&lt;/b&gt;</code></pre>
+        <h3>&lt;strong&gt; tag</h3>
+        <pre class="language-html"><code>&lt;strong&gt;I'm important text&lt;/strong&gt;</code></pre>
+        <h3>&lt;i&gt; tag</h3>
+        <pre class="language-html"><code>&lt;i&gt;I'm italic text&lt;/i&gt;</code></pre>
+        <h3>&lt;em&gt; tag</h3>
+        <pre class="language-html"><code>&lt;em&gt;Emphasized text&lt;/em&gt;</code></pre>
+        <h3>&lt;sub&gt; tag</h3>
+        <pre class="language-html"><code>&lt;sub&gt;Subscript&lt;/sub&gt;</code></pre>
+        <h3>&lt;sup&gt; tag</h3>
+        <pre class="language-html"><code>&lt;sup&gt;Superscript&lt;/sup&gt;</code></pre>
+        <h2>4. Lists</h2>
+        <span>Lists can be either numerical, alphabetic, bullet, or other symbols. You can specify list type and list items in HTML for the clean document.</span>
+        <h3>&lt;ol&gt; tag</h3>
+        <span>Ordered list starts with &lt;ol&gt; tag and each list item starts with &lt;li&gt; tag</span>
+        <pre class="language-html"><code>&lt;ol&gt;
+        &lt;li&gt;Data 1&lt;/li&gt;
+        &lt;li&gt;Data 2&lt;/li&gt;
+        &lt;li&gt;Data 3&lt;/li&gt;
+        &lt;/ol&gt;</code></pre>
+        <h3>&lt;ul&gt; tag</h3>
+        <pre class="language-html"><code>&lt;ul&gt;
+        &lt;li&gt;Your Data&lt;/li&gt;
+        &lt;li&gt;Your Data&lt;/li&gt;
+        &lt;/ul&gt;</code></pre>
+        <!-- <span></span></div><app-adsense adtype="ad" _nghost-sc50=""><div _ngcontent-sc50="" class="text-center"><div _ngcontent-sc50="" class="text-center"><ins _ngcontent-sc50="" data-ad-client="ca-pub-9655830461045889" data-ad-slot="7409118598" class="adsbygoogle" style="display: inline-block; width: 250px; height: 200px;"></ins></div></div></app-adsense></div><div><div>-->
+        <h2>5. Media</h2> 
+        <span>Media is anything that is present in digital form such as image, video, audio, etc.</span>
+        <h3>&lt;audio&gt; tag</h3>
+        <span>It is used to embed sound content in the document.</span>
+        <pre class="language-html"><code>&lt;audio controls&gt;
+        &lt;source src="demo.mp3" type="audio/mpeg"&gt;
+        Your browser does not support the audio element.
+        &lt;/audio&gt;</code></pre>
+        <h3>&lt;img&gt; tag</h3>
+        <span>It is used to embed or import image in a webpage.</span>
+        <pre class="language-html"><code>&lt;img src="Source_of_image" alt="Alternate text"&gt;</code></pre>
+        <h3>&lt;video&gt; tag</h3>
+        <span>It is used to embed video in the webpage.</span>
+        <pre class="language-html"><code>&lt;video width="480" height="320" controls&gt;
+        &lt;source src="demo_move.mp4" type="video/mp4"&gt;
+        Your browser does not support the video tag.
+        &lt;/video&gt;</code></pre>
+        <h2>6. Table</h2>
+        <span>A table is a collection of rows and columns. It is used to represent data in tabular form.</span>
+        <h3>Table Structure</h3>
+        <pre class="language-html"><code>&lt;table&gt;
+        &lt;caption&gt;Demo Table&lt;/caption&gt;
+        &lt;thead&gt;
+        &lt;tr&gt;
+        &lt;th&gt;Column1&lt;/th&gt;
+        &lt;th colspan="2"&gt;Column2&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        &lt;tr&gt;
+        &lt;td&gt;Data1&lt;/td&gt;
+        &lt;td&gt;Data2&lt;/td&gt;
+        &lt;td&gt;Data2&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;Data1&lt;/td&gt;
+        &lt;td&gt;Data2&lt;/td&gt;
+        &lt;td&gt;Data2&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/tbody&gt;
+        &lt;tfoot&gt;
+        &lt;tr&gt;
+        &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;td&gt;Data&lt;/td&gt;
+        &lt;td&gt;Data&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/tfoot&gt;
+        &lt;/table&gt;</code></pre>
+        <h2>7. Links</h2>
+        <span>Links are clickable text that can redirect you to some other page.</span>
+        <h3>&lt;a&gt; tag</h3>
+        <span>&lt;a&gt; or anchor tag defines a hyperlink.</span>
+        <pre class="language-html"><code>&lt;a href="https://www.https://palnilava.github.io/Portfolio/.com/"&gt;Visit https://palnilava.github.io/Portfolio/.com!&lt;/a&gt;</code></pre>
+        <h2>8. Form</h2>
+        <h3>Sample Form</h3>
+        <span>Form is used to collect user's input, generally user's data is sent to server for further processing.</span>
+        <pre class="language-html"><code>&lt;form action="/action.php" method="post"&gt;
+        Name: &lt;input name="name" type="text" /&gt; &lt;br /&gt;
+        Age: &lt;input max="90" min="1" name="age" step="1" type="number" value="18" /&gt; &lt;br /&gt;
+        &lt;select name="gender"&gt;
+        &lt;option selected="selected" value="male"&gt;Male&lt;/option&gt;
+        &lt;option value="female"&gt;Female&lt;/option&gt;
+        &lt;/select&gt;&lt;br /&gt;
+        &lt;input checked="checked" name="newsletter" type="radio" value="daily" /&gt; Daily &lt;input name="newsletter"
+        type="radio" value="weekly" /&gt; Weekly&lt;br /&gt;
+        &lt;textarea cols="20" name="comments" rows="5"&gt;Comment&lt;/textarea&gt;&lt;br /&gt;
+        &lt;label&gt;&lt;input name="terms" type="checkbox" value="tandc" /&gt;Accept terms&lt;/label&gt; &lt;br /&gt;
+        &lt;input type="submit" value="Submit" /&gt;
+        &lt;/form&gt;</code></pre>
+        
+        <h2>9. Characters &amp; Symbols</h2>
+        <span>Some symbols are not directly present on the keyboard, but there are some ways to use them in HTML documents. We can display them either by entity name, decimal, or hexadecimal value.</span>
+        <h3>Copyright Symbol (©)</h3>
+        <pre class="language-html"><code>&amp;copy;</code></pre>
+        <h3>Less than (&lt;)</h3>
+        <pre class="language-html"><code>&amp;lt</code></pre>
+        <h3>Greater than (&gt;)</h3>
+        <pre class="language-html"><code>&amp;gt;</code></pre>
+        <h3>Ampersand (&amp;)</h3>
+        <pre class="language-html"><code>&amp;amp;</code></pre>
+        <h3>Dollar ($)</h3>
+        <pre class="language-html"><code>&amp;dollar;</code></pre>
+        <h2>10.Random Text</h2>
+        <h3>Elon Musk</h3>
+        <pre class="language-html"><code>Elon Reeve Musk FRS is an entrepreneur and business magnate. He is the founder, CEO, and Chief Engineer at SpaceX; early stage investor, CEO, and Product Architect of Tesla, Inc.; founder of The Boring Company; and co-founder of Neuralink and OpenAI. A centibillionaire, Musk is one of the richest people in the world.</code></pre>
+        <h2>11. Semantic Elements</h2>
+        <span>Semantic elements are those elements that are self describable, i.e., from their name itself, you can understand their meaning.</span>
+        <h3>&lt;section&gt; tag</h3>
+        <span>It defines a section in the document</span>
+        <pre class="language-css"><code>&lt;section&gt;This is a section&lt;/section&gt;</code></pre>
+        <h3>&lt;article&gt; tag</h3>
+        <span>It represents self-contained content</span>
+        <pre class="language-css"><code>&lt;article&gt; Enter your data here &lt;/article&gt;</code></pre>
+        <h3>&lt;aside&gt; tag</h3>
+        <span>It is used to place content in the sidebar</span>
+        <pre class="language-css"><code>&lt;aside&gt; Your data &lt;/aside&gt;</code></pre>
+
+    </div>
+
+    <div class="cont" id="c">
+        <h1 class="heading">C  CheatSheets</h1>
+
+        <ol>
+            <li><b>C boiler plate: </b>This is the basic C boilerplate code
+                <pre class="lang-C"><code>#include&lt;stdio.h&gt;
+     int main() {
+            printf("Hey viewer I'm Nilava Pal ");  
+               return 0;
+              }</code></pre>
+            </li>
+
+
+        </ol>
+
+        <h3>printf function</h3>
+<p>It is used to show output on the screen</p>
+<pre class="language-c"><code>printf("Hello World!")</code></pre>
+<h3>scanf function</h3>
+<p>It is used to take input from the user</p>
+<pre class="language-c"><code>scanf("placeholder", variables)</code></pre>
+<h2>1. Comments</h2>
+<p>A comment is the code that is not executed by the compiler, and the programmer uses it to keep track of the code.</p>
+<h3>Single line comment</h3>
+<pre class="language-c"><code>// It's a single line comment</code></pre>
+<h3>Multi-line comment</h3>
+<pre class="language-c"><code>/* It's a 
+multi-line
+comment
+*/</code></pre>
+<h2>2. Data types</h2>
+<p>The data type is the type of data</p>
+<h3>Character type</h3>
+<p>Typically a single octet(one byte). It is an integer type</p>
+<pre class="language-c"><code>char variable_name;</code></pre>
+<h3>Integer type</h3>
+<p>The most natural size of integer for the machine</p>
+<pre class="language-c"><code>int variable_name;</code></pre>
+<h3>Float type</h3>
+<p>A single-precision floating-point value</p>
+<pre class="language-c"><code>float variable_name;</code></pre>
+<h3>Double type</h3>
+<p>A double-precision floating-point value</p>
+<pre class="language-c"><code>double variable_name;</code></pre>
+<h3>Void type</h3>
+<p>Represents the absence of the type</p>
+<pre class="language-c"><code>void</code></pre>
+
+<h2>3. Escape Sequences</h2>
+<p>It is a sequence of characters starting with a backslash, and it doesn't represent itself when used inside string literal.</p>
+<h3>Alarm or Beep</h3>
+<p>It produces a beep sound</p>
+<pre class="language-c"><code>\a</code></pre>
+<h3>Backspace</h3>
+<p>It adds a backspace</p>
+<pre class="language-c"><code>\b</code></pre>
+<h3>Form feed</h3>
+<pre class="language-c"><code>\f</code></pre>
+<h3>Newline</h3>
+<p>Newline Character</p>
+<pre class="language-c"><code>\n</code></pre>
+<h3>Carriage return</h3>
+<pre class="language-c"><code>\r</code></pre>
+<h3>Tab</h3>
+<p>It gives a tab space</p>
+<pre class="language-c"><code>\t</code></pre>
+<h3>Backslash</h3>
+<p>It adds a backslash</p>
+<pre class="language-c"><code>\\</code></pre>
+<h3>Single quote</h3>
+<p>It adds a single quotation mark</p>
+<pre class="language-c"><code>\'</code></pre>
+<h3>Question mark</h3>
+<p>It adds a question mark</p>
+<pre class="language-c"><code>\?</code></pre>
+<h3>Octal No.</h3>
+<p>It represents the value of an octal number</p>
+<pre class="language-c"><code>\nnn</code></pre>
+<h3>Hexadecimal No.</h3>
+<p>It represents the value of a hexadecimal number</p>
+<pre class="language-c"><code>\xhh</code></pre>
+<h3>Null</h3>
+<p>The null character is usually used to terminate a string</p>
+<pre class="language-c"><code>\0</code></pre>
+<h2>4. Conditional Instructions</h2>
+<p>Conditional statements are used to perform operations based on some condition.</p>
+<h3>If Statement</h3>
+<pre class="language-c"><code>if (/* condition */)
+{
+/* code */
+}</code></pre>
+<h3>If-else Statement</h3>
+<pre class="language-c"><code>if (/* condition */)
+{
+/* code */
+}
+else{
+/* Code */
+}
+</code></pre>
+<h3>if else-if Statement</h3>
+<pre class="language-c"><code>if (condition) {
+// Statements;
+}
+else if (condition){
+// Statements;
+}
+else{
+// Statements
+}</code></pre>
+<h3>Switch Case Statement</h3>
+<p>It allows a variable to be tested for equality against a list of values (cases).</p>
+<pre class="language-c"><code>switch (expression) 
+{
+case constant-expression: 
+statement1;
+statement2;
+break;
+case constant-expression: 
+statement;
+break;
+...
+default: 
+statement;
+}</code></pre>
+<h2>5. Iterative Statements</h2>
+<p>Iterative statements facilitate programmers to execute any block of code lines repeatedly and can be controlled as per conditions added by the programmer.</p>
+<h3>while Loop</h3>
+<p>It allows execution of statement inside the block of the loop until the condition of loop succeeds.</p>
+<pre class="language-c"><code>while (/* condition */)
+{
+/* code */
+}</code></pre>
+<h3>do-while loop</h3>
+<p>It is an exit controlled loop. It is very similar to the while loop with one difference, i.e., the body of the do-while loop is executed at least once even if the expression is false</p>
+<pre class="language-c"><code>do
+{
+/* code */
+} while (/* condition */);</code></pre>
+<h3>for loop</h3>
+<p>It is used to iterate the statements or a part of the program several times. It is frequently used to traverse the data structures like the array and linked list.</p>
+<pre class="language-c"><code>for (int i = 0; i &lt; count; i++)
+{
+/* code */
+}</code></pre>
+<h3>Break Statement</h3>
+<p>break keyword inside the loop is used to terminate the loop</p>
+<pre class="language-c"><code>break;</code></pre>
+<h3>Continue Statement</h3>
+<p>continue keyword skips the rest of the current iteration of the loop and returns to the starting point of the loop</p>
+<pre class="language-c"><code>continue;</code></pre>
+<h2>6. Functions &amp; Recursion</h2>
+<p>Functions are used to divide an extensive program into smaller pieces. It can be called multiple times to provide reusability and modularity to the C program.</p>
+<h3>Function Definition</h3>
+<pre class="language-c"><code>return_type function_name(data_type parameter...){ 
+//code to be executed 
+}</code></pre>
+<h3>Recursion</h3>
+<p>Recursion is when a function calls a copy of itself to work on a minor problem. And the function that calls itself is known as the Recursive function.</p>
+<pre class="language-c"><code>void recurse()
+{
+... .. ...
+recurse();
+... .. ...
+}</code></pre>
+<h2>7. Pointers</h2>
+<p>Pointer is a variable that contains the address of another variable,</p>
+<h3>Declaration</h3>
+<pre class="language-c"><code>datatype *var_name;</code></pre>
+<h2>8. Arrays</h2>
+<p>An array is a collection of data items of the same type.</p>
+<h3>Declaration</h3>
+<pre class="language-c"><code>data_type array_name[array_size];</code></pre>
+<h3>Accessing element</h3>
+<pre class="language-c"><code>int variable_name = array[index];</code></pre>
+<h2>9. Strings</h2>
+<p>A string is a 1-D character array terminated by a null character ('\0')</p>
+<h3>Declaration</h3>
+<pre class="language-c"><code>char str_name[size];</code></pre>
+<h3>gets() function</h3>
+<p>It allows you to enter multi-word string</p>
+<pre class="language-c"><code>gets("string");</code></pre>
+<h3>puts() function</h3>
+<p>It is used to show string output</p>
+<pre class="language-c"><code>puts("string");</code></pre>
+<h3>String Functions strlen()</h3>
+<p>It is used to calculate the length of the string</p>
+<pre class="language-c"><code>strlen(string_name);</code></pre>
+<h3>strcpy() function</h3>
+<p>It is used to copy the content of second-string into the first string passed to it</p>
+<pre class="language-c"><code>strcpy(destination, source);</code></pre>
+<h3>strcat() function</h3>
+<p>It is used to concatenate two strings</p>
+<pre class="language-c"><code>strcat(first_string, second_string);</code></pre>
+<h3>strcmp() function</h3>
+<p>It is used to compare two strings</p>
+<pre class="language-c"><code>strcmp(first_string, second_string);</code></pre>
+<h2>10. Structures</h2>
+<p>The structure is a collection of variables of different types under a single name. Defining structure means creating a new data type.</p>
+<h3>Structure syntax</h3>
+<pre class="language-c"><code>struct structureName 
+{
+dataType member1;
+dataType member2;
+...
+};</code></pre>
+<h3>typedef keyword</h3>
+<p>typedef function allows users to provide alternative names for the primitive and user-defined data types.</p>
+<pre class="language-c"><code>typedef struct structureName 
+{
+dataType member1;
+dataType member2;
+...
+}new_name;</code></pre>
+<h2>11. File Handling</h2>
+<p>A set of methods for handling File IO (read/write/append) in C language</p>
+<h3>FILE pointer</h3>
+<pre class="language-c"><code>FILE *filePointer;</code></pre>
+<h2> &nbsp;</h2>
+<h3>Opening a file</h3>
+<p>It is used to open file in C.</p>
+<pre class="language-c"><code>filePointer = fopen(fileName.txt, w)</code></pre>
+<h3>fscanf() function</h3>
+<p>It is used to read the content of file.</p>
+<pre class="language-c"><code>fscanf(FILE *stream, const char *format, ...)</code></pre>
+<h3>fprintf() function</h3>
+<p>It is used to write content into the file.</p>
+<pre class="language-c"><code>fprintf(FILE *fptr, const char *str, ...);</code></pre>
+<h3>fgetc() function</h3>
+<p>It reads a character from a file opened in read mode. It returns EOF on reaching the end of file.</p>
+<pre class="language-c"><code>fgetc(FILE *pointer);</code></pre>
+<h3>fputc() function</h3>
+<p>It writes a character to a file opened in write mode</p>
+<pre class="language-c"><code>fputc(char, FILE *pointer);</code></pre>
+<h3>Closing a file</h3>
+<p>It closes the file.</p>
+<pre class="language-c"><code>fclose(filePointer);</code></pre>
+<h2>12. Dynamic Memory Allocation</h2>
+<p>A set of functions for dynamic memory allocation from the heap. These methods are used to use the dynamic memory which makes our C programs more efficient</p>
+<h3>malloc() function</h3>
+<p>Stands for 'Memory allocation' and reserves a block of memory with the given amount of bytes.</p>
+<pre class="language-c"><code>ptr = (castType*) malloc(size);</code></pre>
+<h3>calloc() function</h3>
+<p>Stands for 'Contiguous allocation' and reserves n blocks of memory with the given amount of bytes.</p>
+<pre class="language-c"><code>ptr = (castType*)calloc(n, size);</code></pre>
+<h3>free function</h3>
+<p>It is used to free the allocated memory.</p>
+<pre class="language-c"><code>free(ptr);</code></pre>
+<h3>realloc() function</h3>
+<p>If the allocated memory is insufficient, then we can change the size of previously allocated memory using this function for efficiency purposes</p>
+<pre class="language-c"><code>ptr = realloc(ptr, x);</code></pre>
+
+
+    </div>
+
+</div>
+
+<div class="cont" id="css">
+    <h1 class="heading">CSS  CheatSheets</h1>
+
+    <!-- <ol>
+        <li><b>C boiler plate: </b>This is the basic C boilerplate code
+            <pre class="lang-C"><code>#include<<stdio.h>stdio.h>
+ int main() {
+        printf("Hey viewer I'm Nilava Pal ");  
+           return 0;
+          }</code></pre>
+        </li> -->
+        <h2>1. Font</h2>
+        <p>There are many properties related to the font, such as the face, weight, style, etc. These properties allow you to change the style or complete look of your text.</p>
+<h3>Font-Family</h3>
+<pre class="language-css"><code>font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;</code></pre>
+<h3>Font-Style</h3>
+<pre class="language-css"><code>font-style: italic;</code></pre>
+<h3>Font-Variant</h3>
+<pre class="language-css"><code>font-variant: small-caps;</code></pre>
+<h3>Font-Weight</h3>
+<pre class="language-css"><code>font-weight: bold;</code></pre>
+<h3>Font-Size</h3>
+<pre class="language-css"><code>font-size: larger;</code></pre>
+<h3>Font</h3>
+<pre class="language-css"><code>font: style variant weight size family;</code></pre>
+<h2>2. Text</h2>
+<p>Text properties allow one to manipulate alignment, spacing, decoration, indentation, etc., in the document.</p>
+<h3>Text-Align</h3>
+<pre class="language-css"><code>text-align: justify;</code></pre>
+<h3>Letter-Spacing</h3>
+<pre class="language-css"><code>letter-spacing: .15em;</code></pre>
+<h3>Text-Decoration</h3>
+<pre class="language-css"><code>text-decoration: underline;</code></pre>
+<h3>Word-Spacing</h3>
+<pre class="language-css"><code>word-spacing: 0.25em;</code></pre>
+<h3>Text-Transform</h3>
+<pre class="language-css"><code>text-transform: uppercase;</code></pre>
+<h3>Text-Indent</h3>
+<pre class="language-css"><code>text-indent: 0.5cm;</code></pre>
+<h3>Line-Height</h3>
+<pre class="language-css"><code>line-height: normal;</code></pre>
+
+<h2>3. Background</h2>
+<p>As the name suggests, these properties are related to background, i.e., you can change the color, image, position, size, etc., of the document.</p>
+<h3>Background-Image</h3>
+<pre class="language-css"><code>background-image: url("Path");</code></pre>
+<h3>Background-Position</h3>
+<pre class="language-css"><code>background-position: right top;</code></pre>
+<h3>Background-Size</h3>
+<pre class="language-css"><code>background-size: cover;</code></pre>
+<h3>Background-Repeat</h3>
+<pre class="language-css"><code>background-repeat: no-repeat;</code></pre>
+<h3>Background-Attachment</h3>
+<pre class="language-css"><code>background-attachment: scroll;</code></pre>
+<h3>Background-Color</h3>
+<pre class="language-css"><code>background-color: fuchsia;</code></pre>
+<h3>Background</h3>
+<pre class="language-css"><code>background: color image repeat attachment position;</code></pre>
+<h2>4. Border</h2>
+<p>Border properties are used to change the style, radius, color, etc., of buttons or other items of the document.</p>
+<h3>Border-Width</h3>
+<pre class="language-css"><code>border-width: 5px;</code></pre>
+<h3>Border-Style</h3>
+<pre class="language-css"><code>border-style: solid;</code></pre>
+<h3>Border-Color</h3>
+<pre class="language-css"><code>border-color: aqua;</code></pre>
+<h3>Border-Radius</h3>
+<pre class="language-css"><code>border-radius: 15px;</code></pre>
+<h3>Border</h3>
+<pre class="language-css"><code>border: width style color;</code></pre>
+<h2>5. Box Model</h2>
+<p>In laymen's terms, the CSS box model is a container that wraps around every HTML element. It consists of margins, borders, padding, and the actual content. It is used to create the design and layout of web pages.</p>
+<h3>Float</h3>
+<pre class="language-css"><code>float: none;</code></pre>
+<h3>Clear</h3>
+<pre class="language-css"><code>clear: both;</code></pre>
+<h3>Display</h3>
+<pre class="language-css"><code>display: block;</code></pre>
+<h3>Height</h3>
+<pre class="language-css"><code>height: fit-content;</code></pre>
+<h3>Width</h3>
+<pre class="language-css"><code>width: auto;</code></pre>
+<h3>Margin</h3>
+<pre class="language-css"><code>margin: top right bottom left;</code></pre>
+<h3>Padding</h3>
+<pre class="language-css"><code>padding: top right bottom left;</code></pre>
+<h3>Overflow</h3>
+<pre class="language-css"><code>overflow: hidden;</code></pre>
+<h3>Visibility</h3>
+<pre class="language-css"><code>visibility: visible;</code></pre>
+<h2>6. Colors</h2>
+<p>With the help of the color property, one can give color to text, shape, or any other object.</p>
+<h3>Color</h3>
+<pre class="language-css"><code>color: cornsilk;</code></pre>
+<h3>Opacity</h3>
+<pre class="language-css"><code>opacity: 4;</code></pre>
+<h2>7. Template Layout</h2>
+<p>Specifies the visual look of the content inside a template</p>
+<h3>Box-Align</h3>
+<pre class="language-css"><code>box-align : start;</code></pre>
+<h3>Box-Direction</h3>
+<pre class="language-css"><code>box-direction : normal;</code></pre>
+<h3>Box-Flex</h3>
+<pre class="language-css"><code>box-flex : normal;</code></pre>
+<h3>Box-Flex-Group</h3>
+<pre class="language-css"><code>box-flex-group : 2;</code></pre>
+<h3>Box-Orient</h3>
+<pre class="language-css"><code>box-orient : inline;</code></pre>
+<h3>Box-Pack</h3>
+<pre class="language-css"><code>box-pack : justify;</code></pre>
+<h3>Box-Sizing</h3>
+<pre class="language-css"><code>box-sizing : margin-box;</code></pre>
+<h3>max-width</h3>
+<pre class="language-css"><code>max-width: 800px;</code></pre>
+<h3>min-width</h3>
+<pre class="language-css"><code>min-width: 500px;</code></pre>
+<h3>max-height</h3>
+<pre class="language-css"><code>max-height: 100px;</code></pre>
+<h3>min-height</h3>
+<pre class="language-css"><code>min-height: 80px;</code></pre>
+<h2>8. Table</h2>
+<p>Table properties are used to give style to the tables in the document. You can change many things like border spacing, table layout, caption, etc.</p>
+<h3>Border-Collapse</h3>
+<pre class="language-css"><code>border-collapse: separate;</code></pre>
+<h3>Empty-Cells</h3>
+<pre class="language-css"><code>empty-cells: show;</code></pre>
+<h3>Border-Spacing</h3>
+<pre class="language-css"><code>border-spacing: 2px;</code></pre>
+<h3>Table-Layout</h3>
+<pre class="language-css"><code>table-layout: auto;</code></pre>
+<h3>Caption-Side</h3>
+<pre class="language-css"><code>caption-side: bottom;</code></pre>
+<h2>9. Columns</h2>
+<p>These properties are used explicitly with columns of the tables, and they are used to give the table an incredible look.</p>
+<h3>Column-Count</h3>
+<pre class="language-css"><code>column-count : 10;</code></pre>
+<h3>Column-Gap</h3>
+<pre class="language-css"><code>column-gap : 5px;</code></pre>
+<h3>Column-rule-width</h3>
+<pre class="language-css"><code>column-rule-width : medium;</code></pre>
+<h3>Column-rule-style</h3>
+<pre class="language-css"><code>column-rule-style : dotted ;</code></pre>
+<h3>Column-rule-color</h3>
+<pre class="language-css"><code>column-rule-color : black;</code></pre>
+<h3>Column-width</h3>
+<pre class="language-css"><code>column-width : 10px;</code></pre>
+<h3>Column-span</h3>
+<pre class="language-css"><code>column-span : all;</code></pre>
+<h2>10. List &amp; Markers</h2>
+<p>List and marker properties are used to customize lists in the document.</p>
+<h3>List-style-type</h3>
+<pre class="language-css"><code>list-style-type: square;</code></pre>
+<h3>List-style-position</h3>
+<pre class="language-css"><code>list-style-position : 20px;</code></pre>
+<h3>List-style-image</h3>
+<pre class="language-css"><code>list-style-image : url(�image.gif�);</code></pre>
+<h3>Marker-offset</h3>
+<pre class="language-css"><code>marker-offset : auto;</code></pre>
+<h2>11. Animations</h2>
+<p>CSS animations allow one to animate transitions or other media files on the web page.</p>
+<h3>Animation-name</h3>
+<pre class="language-css"><code>animation-name : myanimation;</code></pre>
+<h3>Animation-duration</h3>
+<pre class="language-css"><code>animation-duration : 10s;</code></pre>
+<h3>Animation-timing-function</h3>
+<pre class="language-css"><code>animation-timing-function : ease;</code></pre>
+<h3>Animation-delay</h3>
+<pre class="language-css"><code>animation-delay : 5ms;</code></pre>
+<h3>Animation-iteration-count</h3>
+<pre class="language-css"><code>animation-iteration-count : 3;</code></pre>
+<h3>Animation-direction</h3>
+<pre class="language-css"><code>animation-direction : normal;</code></pre>
+<h3>Animation-play-state</h3>
+<pre class="language-css"><code>animation-play-state : running;</code></pre>
+<h3>Animation-fill-mode</h3>
+<pre class="language-css"><code>animation-fill-mode : both;</code></pre>
+<h2>12. Transitions</h2>
+<p>Transitions let you define the transition between two states of an element.</p>
+<h3>Transition-property</h3>
+<pre class="language-css"><code>transition-property: none;</code></pre>
+<h3>Transition-duration</h3>
+<pre class="language-css"><code>transition-duration : 2s;</code></pre>
+<h3>Transition-timing-function</h3>
+<pre class="language-css"><code>transition-timing-function: ease-in-out;</code></pre>
+<h3>Transition-delay</h3>
+<pre class="language-css"><code>transition-delay : 20ms;</code></pre>
+<h2>13. CSS Flexbox</h2>
+<p>Flexbox is a layout of CSS that lets you format HTML easily. Flexbox makes it simple to align items vertically and horizontally using rows and columns. Items will "flex" to different sizes to fill the space. And overall, it makes the responsive design more manageable.</p>
+<h2>i) Parent Properties (flex container)</h2>
+<h3>display</h3>
+<pre class="language-css"><code>display: flex;</code></pre>
+<h3>flex-direction</h3>
+<pre class="language-css"><code>flex-direction: row | row-reverse | column | column-reverse;</code></pre>
+<h3>flex-wrap</h3>
+<pre class="language-css"><code>flex-wrap: nowrap | wrap | wrap-reverse;</code></pre>
+<h3>flex-flow</h3>
+<pre class="language-css"><code>flex-flow: column wrap;</code></pre>
+<h3>justify-content</h3>
+<pre class="language-css"><code>justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;</code></pre>
+<h3>align-items</h3>
+<pre class="language-css"><code>align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;</code></pre>
+<h3>align-content</h3>
+<pre class="language-css"><code>align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;</code></pre>
+<h2>ii) Child Properties (flex items)</h2>
+<h3>order</h3>
+<pre class="language-css"><code>order: 5; /* default is 0 */</code></pre>
+<h3>flex-grow</h3>
+<pre class="language-css"><code>flex-grow: 4; /* default 0 */</code></pre>
+<h3>flex-shrink</h3>
+<pre class="language-css"><code>flex-shrink: 3; /* default 1 */</code></pre>
+<h3>flex-basis</h3>
+<pre class="language-css"><code>flex-basis: | auto; /* default auto */</code></pre>
+<h3>flex shorthand</h3>
+<pre class="language-css"><code>flex: none | [ &lt;'flex-grow'&gt; &lt;'flex-shrink'&gt;? || &lt;'flex-basis'&gt; ]</code></pre>
+<h3>align-self</h3>
+<pre class="language-css"><code>align-self: auto | flex-start | flex-end | center | baseline | stretch;</code></pre>
+<h2>14. CSS Grid</h2>
+<p>Grid layout is a 2-Dimensional grid system to CSS that creates complex responsive web design layouts more easily and consistently across browsers.</p>
+<h2>i) Parent Properties (Grid container)</h2>
+<h3>display</h3>
+<pre class="language-css"><code>display: grid | inline-grid;</code></pre>
+<h3>grid-template-columns</h3>
+<pre class="language-css"><code>grid-template-columns: 12px 12px 12px;</code></pre>
+<h3>grid-template-rows</h3>
+<pre class="language-css"><code>grid-template-rows: 8px auto 12px;</code></pre>
+<h3>grid-template</h3>
+<pre class="language-css"><code>grid-template: none | &lt;grid-template-rows&gt; / &lt;grid-template-columns&gt;;</code></pre>
+<h3>column-gap</h3>
+<pre class="language-css"><code>column-gap: &lt;line-size&gt;;</code></pre>
+<h3>row-gap</h3>
+<pre class="language-css"><code>row-gap: &lt;line-size&gt;;</code></pre>
+<h3>grid-column-gap</h3>
+<pre class="language-css"><code>grid-column-gap: &lt;line-size&gt;;</code></pre>
+<h3>grid-row-gap</h3>
+<pre class="language-css"><code>grid-row-gap: &lt;line-size&gt;;</code></pre>
+<h3>gap shorthand</h3>
+<pre class="language-css"><code>gap: &lt;grid-row-gap&gt; &lt;grid-column-gap&gt;;</code></pre>
+<h3>grid-gap shorthand</h3>
+<pre class="language-css"><code>grid-gap: &lt;grid-row-gap&gt; &lt;grid-column-gap&gt;;</code></pre>
+<h3>justify-items</h3>
+<pre class="language-css"><code>justify-items: start | end | center | stretch;</code></pre>
+<h3>align-items</h3>
+<pre class="language-css"><code>align-items: start | end | center | stretch;</code></pre>
+<h3>place-items</h3>
+<pre class="language-css"><code>place-items: center;</code></pre>
+<h3>justify-content</h3>
+<pre class="language-css"><code>justify-content: start | end | center | stretch | space-around | space-between | space-evenly;</code></pre>
+<h3>align-content</h3>
+<pre class="language-css"><code>align-content: start | end | center | stretch | space-around | space-between | space-evenly;</code></pre>
+<h3>place-content</h3>
+<pre class="language-css"><code>place-content: &lt;align-content&gt; / &lt;justify-content&gt; ;</code></pre>
+<h3>grid-auto-columns</h3>
+<pre class="language-css"><code>grid-auto-columns: &lt;track-size&gt; ...;</code></pre>
+<h3>grid-auto-rows</h3>
+<pre class="language-css"><code>grid-auto-rows: &lt;track-size&gt; ...;</code></pre>
+<h3>grid-auto-flow</h3>
+<pre class="language-css"><code>grid-auto-flow: row | column | row dense | column dense;</code></pre>
+<h2>ii) Child Properties (Grid items)</h2>
+<h3>grid-column-start</h3>
+<pre class="language-css"><code>grid-column-start: &lt;number&gt; | &lt;name&gt; | span &lt;number&gt; | span &lt;name&gt; | auto;</code></pre>
+<h3>grid-column-end</h3>
+<pre class="language-css"><code>grid-column-end: &lt;number&gt; | &lt;name&gt; | span &lt;number&gt; | span &lt;name&gt; | auto;</code></pre>
+<h3>grid-row-start</h3>
+<pre class="language-css"><code>grid-row-start: &lt;number&gt; | &lt;name&gt; | span &lt;number&gt; | span &lt;name&gt; | auto;</code></pre>
+<h3>grid-row-end</h3>
+<pre class="language-css"><code>grid-row-end: &lt;number&gt; | &lt;name&gt; | span &lt;number&gt; | span &lt;name&gt; | auto;</code></pre>
+<h3>grid-column shorthand</h3>
+<pre class="language-css"><code>grid-column: &lt;start-line&gt; / &lt;end-line&gt; | &lt;start-line&gt; / span &lt;value&gt;;</code></pre>
+<h3>grid-row shorthand</h3>
+<pre class="language-css"><code>grid-row: &lt;start-line&gt; / &lt;end-line&gt; | &lt;start-line&gt; / span &lt;value&gt;;</code></pre>
+<h3>grid-area</h3>
+<pre class="language-css"><code>grid-area: &lt;name&gt; | &lt;row-start&gt; / &lt;column-start&gt; / &lt;row-end&gt; / &lt;column-end&gt;;</code></pre>
+<h3>justify-self</h3>
+<pre class="language-css"><code>justify-self: start | end | center | stretch;</code></pre>
+<h3>align-self</h3>
+<pre class="language-css"><code>align-self: start | end | center | stretch;</code></pre>
+<h3>place-self</h3>
+<pre class="language-css"><code>place-self: center;</code></pre>
+
+    </ol>
+</div>
+<!-- C++ Section -->
+<div class="cont" id="c++">
+    <h1 class="heading">C++  CheatSheets</h1>
+
+    <h2>1. Basics</h2>
+    <p>Basic syntax and functions from the C++ programming language.</p>
+<h3>Boilerplate</h3>
+<pre class="language-cpp"><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+cout &lt;&lt; "Hey viewer I'm Nilava Pal ";
+return 0;
+}</code></pre>
+<h3>cout &lt;&lt;</h3>
+<p>It prints output on the screen</p>
+<pre class="language-cpp"><code>cout &lt;&lt; "This is C++ Programming";</code></pre>
+<h3>cin &gt;&gt;</h3>
+<p>It takes input from the user</p>
+<pre class="language-cpp"><code>cin &gt;&gt; variable_name</code></pre>
+<h2>2. Data types</h2>
+<p>The data type is the type of data</p>
+<h3>Character type</h3>
+<p>Typically a single octet(one byte). It is an integer type</p>
+<pre class="language-cpp"><code>char variable_name;</code></pre>
+<h3>Integer type</h3>
+<p>The most natural size of integer for the machine</p>
+<pre class="language-cpp"><code>int variable_name;</code></pre>
+<h3>Float type</h3>
+<p>A single-precision floating-point value</p>
+<pre class="language-cpp"><code>float variable_name;</code></pre>
+<h3>Double type</h3>
+<p>A double-precision floating-point value</p>
+<pre class="language-cpp"><code>double variable_name;</code></pre>
+<h3>Void type</h3>
+<p>Represents the absence of the type</p>
+<pre class="language-cpp"><code>void</code></pre>
+<h3>Boolean type</h3>
+<pre class="language-cpp"><code>bool</code></pre>
+<h2>3. Escape Sequences</h2>
+<p>It is a sequence of characters starting with a backslash, and it doesn't represent itself when used inside string literal.</p>
+<h3>Alarm or Beep</h3>
+<p>It produces a beep sound</p>
+<pre class="language-cpp"><code>\a</code></pre>
+<h3>Backspace</h3>
+<p>It adds a backspace</p>
+<pre class="language-cpp"><code>\b</code></pre>
+<h3>Form feed</h3>
+<pre class="language-cpp"><code>\f</code></pre>
+<h3>Newline</h3>
+<p>Newline Character</p>
+<pre class="language-cpp"><code>\n</code></pre>
+<h3>Carriage return</h3>
+<pre class="language-cpp"><code>\r</code></pre>
+<h3>Tab</h3>
+<p>It gives a tab space</p>
+<pre class="language-cpp"><code>\t</code></pre>
+<h3>Backslash</h3>
+<p>It adds a backslash</p>
+<pre class="language-cpp"><code>\\</code></pre>
+<h3>Single quote</h3>
+<p>It adds a single quotation mark</p>
+<pre class="language-cpp"><code>\'</code></pre>
+<h3>Question mark</h3>
+<p>It adds a question mark</p>
+<pre class="language-cpp"><code>\?</code></pre>
+<h3>Octal No.</h3>
+<p>It represents the value of an octal number</p>
+<pre class="language-cpp"><code>\nnn</code></pre>
+<h3>Hexadecimal No.</h3>
+<p>It represents the value of a hexadecimal number</p>
+<pre class="language-cpp"><code>\xhh</code></pre>
+<h3>Null</h3>
+<p>The null character is usually used to terminate a string</p>
+<pre class="language-cpp"><code>\0</code></pre>
+<h2>4. Comments</h2>
+<p>A comment is a code that is not executed by the compiler, and the programmer uses it to keep track of the code.</p>
+<h3>Single line comment</h3>
+<pre class="language-cpp"><code>// It's a single line comment</code></pre>
+<h3>Multi-line comment</h3>
+<pre class="language-cpp"><code>/* It's a 
+multi-line
+comment
+*/</code></pre>
+<h2>5. Strings</h2>
+<p>It is a collection of characters surrounded by double quotes</p>
+<h3>Declaring String</h3>
+<pre class="language-cpp"><code>// Include the string library
+#include &lt;string&gt;
+
+// String variable
+string variable1 = "Hello World";</code></pre>
+<h3>append function</h3>
+<p>It is used to concatenate two strings</p>
+<pre class="language-cpp"><code>string firstName = "Hello ";
+string lastName = "World";
+string fullName = firstName.append(lastName);
+cout &lt;&lt; fullName;</code></pre>
+<h3>length function</h3>
+<p>It returns the length of the string</p>
+<pre class="language-cpp"><code>string variable1 = "HelloWorld";
+cout &lt;&lt; "The length of the string is: " &lt;&lt; variable1.length();
+</code></pre>
+<h3>Accessing and changing string characters</h3>
+<pre class="language-cpp"><code>string variable1 = "Hello World";
+variable1[1] = 'i';
+cout &lt;&lt; variable1;</code></pre>
+<h2>6. Maths</h2>
+<p>C++ provides some built-in math functions that help the programmer to perform mathematical operations efficiently.</p>
+<h3>max function</h3>
+<p>It returns the larger value among the two</p>
+<pre class="language-cpp"><code>cout &lt;&lt; max(25, 140);</code></pre>
+<h3>min function</h3>
+<p>It returns the smaller value among the two</p>
+<pre class="language-cpp"><code>cout &lt;&lt; min(55, 50);</code></pre>
+<h3>sqrt function</h3>
+<p>It returns the square root of a supplied number</p>
+<pre class="language-cpp"><code>#include &lt;cmath&gt;
+
+cout &lt;&lt; sqrt(144);</code></pre>
+<h3>ceil function</h3>
+<p>It returns the value of x rounded up to its nearest integer</p>
+<pre class="language-cpp"><code>ceil(x)</code></pre>
+<h3>floor function</h3>
+<p>It returns the value of x rounded down to its nearest integer</p>
+<pre class="language-cpp"><code>floor(x)</code></pre>
+<h3>pow function</h3>
+<p>It returns the value of x to the power of y</p>
+<pre class="language-cpp"><code>pow(x, y)</code></pre>
+<h2>7. Decision Making Instructions</h2>
+<p>Conditional statements are used to perform operations based on some condition.</p>
+<h3>If Statement</h3>
+<pre class="language-cpp"><code>if (condition) {
+// This block of code will get executed, if the condition is True
+}</code></pre>
+<h3>If-else Statement</h3>
+<pre class="language-cpp"><code>if (condition) {
+// If condition is True then this block will get executed
+} else {
+// If condition is False then this block will get executed
+}</code></pre>
+<h3>if else-if Statement</h3>
+<pre class="language-cpp"><code>if (condition) {
+// Statements;
+}
+else if (condition){
+// Statements;
+}
+else{
+// Statements
+}</code></pre>
+<h3>Ternary Operator</h3>
+<p>It is shorthand of an if-else statement.</p>
+<pre class="language-cpp"><code>variable = (condition) ? expressionTrue : expressionFalse;</code></pre>
+<h3>Switch Case Statement</h3>
+<p>It allows a variable to be tested for equality against a list of values (cases).</p>
+<pre class="language-cpp"><code>switch (expression) 
+{
+case constant-expression: 
+statement1;
+statement2;
+break;
+case constant-expression: 
+statement;
+break;
+...
+default: 
+statement;
+}</code></pre>
+<h2>8. Iterative Statements</h2>
+<p>Iterative statements facilitate programmers to execute any block of code lines repeatedly and can be controlled as per conditions added by the programmer.</p>
+<h3>while Loop</h3>
+<p>It iterates the block of code as long as a specified condition is True</p>
+<pre class="language-cpp"><code>while (/* condition */)
+{
+/* code block to be executed */
+}</code></pre>
+<h3>do-while loop</h3>
+<p>It is an exit controlled loop. It is very similar to the while loop with one difference, i.e., the body of the do-while loop is executed at least once even if the condition is False</p>
+<pre class="language-cpp"><code>do
+{
+/* code */
+} while (/* condition */);</code></pre>
+<h3>for loop</h3>
+<p>It is used to iterate the statements or a part of the program several times. It is frequently used to traverse the data structures like the array and linked list.</p>
+<pre class="language-cpp"><code>for (int i = 0; i &lt; count; i++)
+{
+/* code */
+}</code></pre>
+<h3>Break Statement</h3>
+<p>break keyword inside the loop is used to terminate the loop</p>
+<pre class="language-cpp"><code>break;</code></pre>
+<h3>Continue Statement</h3>
+<p>continue keyword skips the rest of the current iteration of the loop and returns to the starting point of the loop</p>
+<pre class="language-cpp"><code>continue;</code></pre>
+<h2>9. References</h2>
+<p>Reference is an alias for an already existing variable. Once it is initialized to a variable, it cannot be changed to refer to another variable. So, it's a const pointer.</p>
+<h3>Creating References</h3>
+<pre class="language-cpp"><code>string var1 = "Value1"; // var1 variable
+string &amp;var2 = var1; // reference to var1</code></pre>
+<h2>10. Pointers</h2>
+<p>Pointer is a variable that holds the memory address of another variable</p>
+<h3>Declaration</h3>
+<pre class="language-cpp"><code>datatype *var_name; 
+
+var_name = &amp;variable2;</code></pre>
+<h2>11. Functions &amp; Recursion</h2>
+<p>Functions are used to divide an extensive program into smaller pieces. It can be called multiple times to provide reusability and modularity to the C program.</p>
+<h3>Function Definition</h3>
+<pre class="language-cpp"><code>return_type function_name(data_type parameter...){ 
+//code to be executed 
+}</code></pre>
+<h3>Function Call</h3>
+<pre class="language-cpp"><code>function_name(arguments);</code></pre>
+<h3>Recursion</h3>
+<p>Recursion is when a function calls a copy of itself to work on a minor problem. And the function that calls itself is known as the Recursive function.</p>
+<pre class="language-cpp"><code>void recurse()
+{
+... .. ...
+recurse();
+... .. ...
+}</code></pre>
+<h2>12. Object-Oriented Programming</h2>
+<p>It is a programming approach that primarily focuses on using objects and classes. The objects can be any real-world entities.</p>
+<h3>class</h3>
+<pre class="language-cpp"><code>class Class_name {
+public: // Access specifier
+// fields
+// functions
+// blocks
+};</code></pre>
+<h3>object</h3>
+<pre class="language-cpp"><code>Class_name ObjectName;</code></pre>
+<h3>Constructors</h3>
+<p>It is a special method that is called automatically as soon as the object is created.</p>
+<pre class="language-cpp"><code>class className { // The class
+public: // Access specifier
+className() { // Constructor
+cout &lt;&lt; "Code With Harry";
+}
+};
+
+int main() {
+className obj_name; 
+return 0;
+}</code></pre>
+<h3>Encapsulation</h3>
+<p>Data encapsulation is a mechanism of bundling the data, and the functions that use them and data abstraction is a mechanism of exposing only the interfaces and hiding the implementation details from the user.</p>
+<pre class="language-cpp"><code>#include&lt;iostream&gt; 
+using namespace std; 
+class ExampleEncap{ 
+private: 
+/* Since we have marked these data members private, 
+* any entity outside this class cannot access these 
+* data members directly, they have to use getter and 
+* setter functions. 
+*/ 
+int num; 
+char ch; 
+public: 
+/* Getter functions to get the value of data members. 
+* Since these functions are public, they can be accessed 
+* outside the class, thus provide the access to data members 
+* through them 
+*/ 
+int getNum() const { 
+return num; 
+} 
+char getCh() const { 
+return ch; 
+} 
+/* Setter functions, they are called for assigning the values 
+* to the private data members. 
+*/ 
+void setNum(int num) { 
+this-&gt;num = num; 
+} 
+void setCh(char ch) { 
+this-&gt;ch = ch; 
+} 
+}; 
+int main(){ 
+ExampleEncap obj; 
+obj.setNum(100); 
+obj.setCh('A'); 
+cout&lt;&lt;obj.getNum()&lt;&lt;endl; 
+cout&lt;&lt;obj.getCh()&lt;&lt;endl; 
+return 0; 
+}</code></pre>
+<h2>13. File Handling</h2>
+<p>File handling refers to reading or writing data from files. C provides some functions that allow us to manipulate data in the files.</p>
+<h3>Creating and writing to a text file</h3>
+<pre class="language-cpp"><code>#include &lt;iostream&gt;
+#include &lt;fstream&gt;
+using namespace std;
+
+int main() {
+// Create and open a text file
+ofstream MyFile("filename.txt");
+
+// Write to the file
+MyFile &lt;&lt; "File Handling in C++";
+
+// Close the file
+MyFile.close();
+}</code></pre>
+<h3>Reading the file</h3>
+<p>It allows us to read the file line by line</p>
+<pre class="language-cpp"><code>getline()</code></pre>
+<h3>Opening a File</h3>
+<p>It opens a file in the C++ program</p>
+<pre class="language-cpp"><code>void open(const char* file_name,ios::openmode mode);</code></pre>
+<h3>OPEN MODES</h3>
+<pre class="language-cpp"><code></code></pre>
+<h3>in</h3>
+<p>Opens the file to read(default for ifstream)</p>
+<pre class="language-cpp"><code>fs.open ("test.txt", std::fstream::in)</code></pre>
+<h3>out</h3>
+<p>Opens the file to write(default for ofstream)</p>
+<pre class="language-cpp"><code>fs.open ("test.txt", std::fstream::out)</code></pre>
+<h3>binary</h3>
+<p>Opens the file in binary mode</p>
+<pre class="language-cpp"><code>fs.open ("test.txt", std::fstream::binary)</code></pre>
+<h3>app</h3>
+<p>Opens the file and appends all the outputs at the end</p>
+<pre class="language-cpp"><code>fs.open ("test.txt", std::fstream::app)</code></pre>
+<h3>ate</h3>
+<p>Opens the file and moves the control to the end of the file</p>
+<pre class="language-cpp"><code>fs.open ("test.txt", std::fstream::ate)</code></pre>
+<h3>trunc</h3>
+<p>Removes the data in the existing file</p>
+<pre class="language-cpp"><code>fs.open ("test.txt", std::fstream::trunc)</code></pre>
+<h3>nocreate</h3>
+<p>Opens the file only if it already exists</p>
+<pre class="language-cpp"><code>fs.open ("test.txt", std::fstream::nocreate)</code></pre>
+<h3>noreplace</h3>
+<p>Opens the file only if it does not already exist</p>
+<pre class="language-cpp"><code>fs.open ("test.txt", std::fstream::noreplace)</code></pre>
+<h3>Closing a file</h3>
+<p>It closes the file</p>
+<pre class="language-cpp"><code>myfile.close()</code></pre>
+<h2>14. Exception Handling</h2>
+<p>An exception is an unusual condition that results in an interruption in the flow of the program.</p>
+<h3>try and catch block</h3>
+<p>A basic try-catch block in python. When the try block throws an error, the control goes to the except block</p>
+<pre class="language-cpp"><code>try {
+// code to try
+throw exception; // If a problem arises, then throw an exception
+}
+catch () {
+// Block of code to handle errors
+}</code></pre>
+
+
+
+</div>
+
+<footer>
+    <div class="foot">
+        <p>Created with <i class="fa fa-heart"> </i> by Nilava Pal</p>
+    </div>
+</footer>
+</body>
+
+</html>
