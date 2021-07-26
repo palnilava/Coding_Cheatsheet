@@ -81,11 +81,14 @@ ol{
     font-size: 37px;
     background-color: #e2e2e2a6;
 }
+#html{
+    margin-top: -36px;
+}
 .cont{
     /* background-color: #ff906f; */
     width:90%;
     margin: auto;
-    margin-top: -50px;
+    margin-top: 50px;
 
 }
 .front{
