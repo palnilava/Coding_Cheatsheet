@@ -10,7 +10,7 @@
 }
 
 .social-icons{
-   top: 50%;
+   top: 28%;
     transform: translateY(50%);
     position: sticky;
     z-index: 1;
@@ -102,7 +102,11 @@ ol{
     color: #f9f9f9;
 
 }
-
+footer{
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+}
 .foot{
     background: #000000a8;
     height: 50px;
